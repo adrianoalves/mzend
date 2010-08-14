@@ -1,0 +1,15 @@
+<h1>Mobo Action</h1>
+<?php
+ $display = $this->mobile->getDisplay();
+ $w = $display->maxWidth;
+ $h = $display->maxHeight;
+?>
+<div align="center" style="">
+  <div id="display" style="width:<?php echo $w?>px; height:<?php echo $h?>px;border:1px dashed #00d;"></div>
+</div>
+
+<pre>
+<?php
+  //print_r( $this->mobile );
+?>
+</pre>

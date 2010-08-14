@@ -1,0 +1,30 @@
+<?php
+  $w = $this->w;
+?>
+<?php echo $this->mobile->getUIManager()->markup->docType ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="<?php echo $this->mobile->getUIManager()->markup->contentType ?>; charset=ISO-8859-1" />
+  <title>Zend based architecture for mobile wap apps</title>
+  <meta name="value" content="value" />
+  <link rel="stylesheet" type="text/css" href="/css/global.css" />
+  <link rel="stylesheet" type="text/css" href="/css/<?php echo $w ?>/index.css" />
+</head>
+  <body>
+    <div style="width:<?php echo $w ?>px;border:1px dashed #444;" align="left">
+      <img src="/img/<?php echo $w.'/jpg/cqc.jpg'; ?>" />
+      <?php echo $this->layout()->content; ?>
+    </div>
+
+<?php
+
+  # dumping
+  echo 'Modelo: '.$this->mobile->name.'<br>' ;
+  echo 'Largura: '.$this->mobile->getDisplay()->maxWidth.'<br>' ;
+  echo 'UA: '.$_SERVER[ 'HTTP_USER_AGENT' ];
+  echo 'Dispositivo<pre>';print_r( $this->mobile );
+
+?>
+  </body>
+</html>
+
