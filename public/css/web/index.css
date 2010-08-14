@@ -1,0 +1,75 @@
+#content{
+  
+}
+.titulo_medio{
+
+}
+#oferta_destaque, #para_que_serve, #comunidades{
+  border-bottom:1px solid #dfdfdf;
+  margin:4px 3px;
+}
+#oferta_destaque img, #para_que_serve img{
+  margin:3px 2px;
+}
+#oferta_destaque h4, #para_que_serve h4{
+  color:#1462C1; /* azul */
+}
+/**/
+#oferta_destaque p{
+  font-size:13px;color:#777;
+}
+/**/
+#para_que_serve img{
+  margin:3px 2px;
+}
+#para_que_serve p{
+  font-size:13px;color:#777;
+}
+/**/
+#comunidades h4{
+  color:#7CBA0F;
+}
+#comunidades ul{
+  list-style: none;
+  margin: 4px 0 2px 0;
+}
+#comunidades ul li{
+  background: #FFFFFF url(/img/web/icons/plus.png) no-repeat scroll 0 5px;
+  padding-left: 16px;
+  display: inline;
+}
+#comunidades ul li a{
+  text-decoration: none;
+  font-size: 11px;
+  color:#069;
+}
+#comunidades ul li a:hover{
+  text-decoration: underline;
+}
+/**/
+#content_center{
+  float:left;border:1px solid #333; width:48%;
+}
+#content_center .oferta_destaque{
+  margin:2px 3px; border-bottom:1px solid #dfdfdf;
+}
+/**/
+#content_left .box_news{
+  margin:4px 3px;
+  border-bottom:1px solid #dfdfdf;
+  padding-bottom: 3px;
+}
+.box_news h2{
+  font-size: 13px;
+}
+.box_news h2 a{
+  color:#000;
+  text-decoration: none;
+}
+.box_news h2 a:hover{
+  color:#555;
+  text-decoration: underline;
+}
+.box_news p{
+  font-size: 11px; color:#444;
+}
