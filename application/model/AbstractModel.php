@@ -1,6 +1,6 @@
 <?php
 /**
- * Common methods to every classes
+ * This class bribgs common methods to every model, it should be extended
  * @author adriano
  */
 Class AbstractModel extends Zend_Db_Table_Abstract{
